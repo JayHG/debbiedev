@@ -6,7 +6,7 @@ body {
 .header {
   color: #bebcbc;
   width: 100vw;
-  height: 35px;  
+  height: 60px;  
 } 
 
 .logo {
@@ -72,7 +72,8 @@ body {
     color: #69b9ff;
 }
 
-.about {
+.about,
+.resume {
   margin: 0 auto;
   height: 240px;
   font-size: 25px;
@@ -89,9 +90,6 @@ body {
   height: 50px;
   border-radius: 50%;
   background-image:  linear-gradient(to right, rgba(255, 164, 46, 0.7), rgba(46, 157, 255, 0.4), rgba(255, 164, 46, 0.7));
-  -webkit-animation: Separator 10s ease infinite;
-  -moz-animation: Separator 10s ease infinite;
-  animation: Separator 10s ease infinite;
 }
 
 @-webkit-keyframes Separator {
